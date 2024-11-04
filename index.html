@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Plantas Online</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.6.0-web/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/logo-w.png" alt="Logo">
+        </div>
+
+        <navbar class="navbar">
+            <ul class="menu">
+                <li class="menu-item active"><a href="#">Inicio</a></li>
+                <li class="menu-item"><a href="#">Blog</a></li>
+                <li class="menu-item"><a href="#">Contacto</a></li>
+            </ul>
+        </navbar>
+
+        <div class="header-buttons">
+            <!-- //Botón id= toggleShoppingListBtn -->
+                <i class="fa-solid fa-user shopping-list"></i>
+                <i class="fa-solid fa-phone shopping-list"></i>
+                <i class="fa-solid fa-cart-shopping shopping-list" id="toggleShoppingListBtn"></i>
+        </div>
+    </header>
+
+<!-- Resumen Carrito id= shoppingListContainer-->
+    <div id="shoppingListContainer" class="shopping-list-container">
+        <div class="container w-100">
+            <h2 class="title">Tu carro</h2>
+            <table class="shopping-list-table" id="shoppingList">
+                <thead>
+                    <tr>
+                        <th class="w-50">Item</th>
+                        <th>€</th>
+                        <th>Nº</th>
+                        <th>Total</th>
+                        <th class="th-end"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                  
+                
+                </tbody>
+                
+            </table>
+            <div class="shopping-list-total">
+                TOTAL <span id="totalPrice">0€</span>
+            </div>
+            <button id="doOrderBtn">Comprar</button>
+        </div>
+    </div>
+
+    <div id="charactersContainer" class="character-container container">
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
