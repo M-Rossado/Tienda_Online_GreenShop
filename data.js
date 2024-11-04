@@ -69,15 +69,15 @@ const products = [
     },
     {
         id:9, 
-        productName:'Sedum burrito', 
-        description: 'Sedum burrito en maceta de 14 cm diámetro. Planta crasa con porte...',
+        productName:'Sedum Califorme', 
+        description: 'Sedum en maceta de 14 cm diámetro. Planta crasa con porte...',
         image:'./assets/sedum-burrito.png', 
         price: 15, 
         stock: 3
     },
     {
         id:10, 
-        productName:'Hawortia', 
+        productName:'Hawortia Sencilla', 
         description: 'La Hawortia es una planta suculenta que se compone por rosetas de...',
         image:'./assets/hawortia.png', 
         price: 15, 

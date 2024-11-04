@@ -79,6 +79,7 @@ function refreshShoppingList() {
                 <button class="remove-item-from-cart fa-solid fa-minus"></button>
             </td>
         `;
+        
 
         let $addBtn = $tr.querySelector('.add-item-to-cart');
         let $removeBtn = $tr.querySelector('.remove-item-from-cart');

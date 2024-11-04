@@ -74,7 +74,7 @@ body{
 }
 .header .navbar .menu {
     list-style: none;
-    display: flex;
+    display: none;
 }
 .header .navbar .menu .menu-item{
     margin: 0 10px;
@@ -82,6 +82,15 @@ body{
 .header .navbar .menu .menu-item.active{
     border-bottom:  2px solid #ffffff;
     cursor: pointer;
+}
+.ham-menu{
+    height: 40px;
+    background: #20693d7d;
+    width: 40px;
+    margin-top: 60px;
+    padding: 13px;
+    border-radius: 5px;
+    position: fixed;
 }
 .header .header-buttons{
     display: flex;
@@ -146,6 +155,10 @@ body{
     margin-bottom: 10px;
     cursor: pointer;
 }
+.character-pill .character-body .character-summary .character-summary-btn:active{
+    color: #d2fabe;
+
+}
 /* END CHARACTER LIST */
 
 /* SHOPPING LIST */
@@ -159,6 +172,8 @@ body{
     top: 60px;
     transition: right 1s;
     padding: 30px 15px;
+    border-radius: 5px;
+    height: auto;
 }
 .show{
     right: 0vw;
@@ -229,6 +244,12 @@ button#doOrderBtn:hover {
         flex-wrap: wrap;
         padding-right: 40px;
         gap: 40px;
+    }
+    .header .navbar .menu {
+        display: flex;
+    }
+    .ham-menu{
+       display: none;
     }
 }
 
