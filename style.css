@@ -186,6 +186,18 @@ body{
 .shopping-list-container .shopping-list-table{
     width: 100%;
 }
+.globo-count {
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    background-color: #d2fabe;
+    position: fixed;
+    top: 16px;
+    right: 34px;
+    font-size: 8px;
+    padding: 2px 4px;
+    color: #20693d;
+}
 .th-end{
     width:min-content;
 }

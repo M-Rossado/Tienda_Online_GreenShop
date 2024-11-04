@@ -68,7 +68,7 @@ function refreshShoppingList() {
     for (let productId in shoppingList){ //Utilizando el objeto del carrito vuelvo a crear los elementos
         let product = shoppingList[productId];
         let $tr = document.createElement('tr');
-        $tr.dataset.is = product.id;
+        $tr.dataset.id = product.id;
         $tr.innerHTML = `
             <td>${product.productName}</td>
             <td>${product.price}€</td>
