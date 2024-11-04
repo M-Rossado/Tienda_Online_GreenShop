@@ -110,6 +110,7 @@ body{
     border-radius: 10px;
     background-color: #ffffff;
     overflow: hidden;
+    cursor: pointer;
 }
 .character-pill-container:hover{
     width: 101%;
@@ -143,6 +144,7 @@ body{
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 /* END CHARACTER LIST */
 
