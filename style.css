@@ -191,12 +191,12 @@ body{
     height: 12px;
     border-radius: 20px;
     background-color: #d2fabe;
-    position: fixed;
-    top: 16px;
-    right: 34px;
+    top: 15px;
+    right: 4px;
     font-size: 8px;
     padding: 2px 4px;
     color: #20693d;
+    position: absolute;
 }
 .th-end{
     width:min-content;
@@ -262,6 +262,9 @@ button#doOrderBtn:hover {
     }
     .ham-menu{
        display: none;
+    }
+    .globo-count {
+        right: 30px;
     }
 }
 

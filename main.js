@@ -5,6 +5,11 @@ for (const product of products) {
     console.log("Imagen del producto:", product.image);
 }
 
+
+function globoCount(){
+
+}
+
 // Tarjetas de productos 
 function paintCharacters(){
     let $container = document.querySelector('#charactersContainer');
@@ -75,8 +80,8 @@ function refreshShoppingList() {
             <td>${product.count}</td>
             <td>${product.count * product.price}</td>
             <td>
-                <button class="add-item-to-cart fa-solid fa-plus"></button>   
-                <button class="remove-item-from-cart fa-solid fa-minus"></button>
+                <button class="remove-item-from-cart fa-solid fa-minus color-w"></button>
+                <button class="add-item-to-cart fa-solid fa-plus color-w"></button>   
             </td>
         `;
         
